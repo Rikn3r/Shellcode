@@ -50,5 +50,3 @@ Bonus of the wrapper : Display of the shellcode, its size, memory status, debugg
 shellcode (beware of nullbytes)
 10. Execute the shellcodes created in the C wrapper
 11. Bonus : in the wrapper directory, develop an asm wrapper.
-
-Translated with www.DeepL.com/Translator (free version)
