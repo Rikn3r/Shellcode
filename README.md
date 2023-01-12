@@ -20,3 +20,9 @@ Compile then execute wrapper:
 gcc wrapper.c -o wrapper -fno-stack-protector -z
 ./wrapper $(python2 -c 'print("<OPCODE>")'
 ```
+### ASM 32/64
+Compile then execute asm0X.s: 
+```console
+./build.sh asm0X
+./asm0X
+```
