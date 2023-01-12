@@ -1,7 +1,7 @@
 # Shellcode
 A school repository from Shellcode Module.
 
-# Project architecture
+# Repo architecture
 ### Shellcode
 This directory is reserved for the first exercice, creation of a C program who open a Shell 
 ### wrapper
