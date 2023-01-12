@@ -5,7 +5,7 @@ A school repository from Shellcode Module.
 ### shellcode
 This directory is reserved for activity 1 question 4, creation of a C program who open a Shell 
 ### wrapper
-This directory is reserved for first activity, a wrapper ecxecuting Opcode given in parameter
+This directory is reserved for first activity, a wrapper executing an OPCODE given in parameter
      
 ### asm32 and asm64
 These two directories are reserved for second activity (respectively in assembly x32 and x64) 
