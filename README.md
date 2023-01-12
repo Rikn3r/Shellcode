@@ -1,5 +1,5 @@
 # Shellcode
-A school repository from Shellcode Module.
+Shellcode module repository - computer engineering studies, cyber security specialization
 
 # Repo architecture
 ### shellcode
