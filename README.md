@@ -24,7 +24,7 @@ Compile then execute asm0X.s (X is a digit) :
 ./build.sh asm0X
 ./asm0X
 ```
-# Activité
+# Activités
 ### Activité 1
 1. Préparation de la VM de dev.
 2. Création d’un repository github avec à sa racine un fichier auteur contenant prénom nom et classe.
