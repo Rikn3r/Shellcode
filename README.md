@@ -2,7 +2,7 @@
 A school repository from Shellcode Module.
 
 # Repo architecture
-### Shellcode
+### shellcode
 This directory is reserved for activity 1 question 4, creation of a C program who open a Shell 
 ### wrapper
 This directory is reserved for first activity, a wrapper ecxecuting Opcode given in parameter
