@@ -1,4 +1,4 @@
-# Shellcode
+# Shellcode module
 Shellcode module repository - computer engineering studies, cyber security specialization
 
 # Repo architecture
