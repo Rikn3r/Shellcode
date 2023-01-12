@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
 
-nasm -f elf32 -o $1.o $1.s
-ld -m elf_i386 -o $1 $1.o
+gcc -c $1.s -o $1.o
+gcc $1.o -o $1
+
