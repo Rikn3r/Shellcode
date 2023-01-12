@@ -2,7 +2,7 @@
 Shellcode module repository - computer engineering studies, cyber security specialization
 
 # Repo architecture
-### shellcode
+### shellcodes
 This directory is reserved for activity 1 question 4, creation of a C program who open a Shell 
 ### wrapper
 This directory is reserved for activity 1 question 5, a wrapper executing an OPCODE given in parameter
