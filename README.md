@@ -5,11 +5,10 @@ A school repository from Shellcode Module.
 ### Shellcode
 This directory is reserved for the first exercice, creation of a C program who open a Shell 
 ### wrapper
-This directory is reserved for second activity, a wrapper ecxecuting Opcode given in parameter
+This directory is reserved for first activity, a wrapper ecxecuting Opcode given in parameter
      
 ### asm32
-This directory is reserved for third exercice (in assembly) 
-### asm64
+This directory is reserved for 
 This directory is reserved for third exercice (in assembly) 
 
 # Build and run
@@ -21,7 +20,7 @@ gcc wrapper.c -o wrapper -fno-stack-protector -z
 ./wrapper $(python2 -c 'print("<OPCODE>")'
 ```
 ### ASM 32/64
-Compile then execute asm0X.s: 
+Compile then execute asm0X.s (X is a digit) : 
 ```console
 ./build.sh asm0X
 ./asm0X
