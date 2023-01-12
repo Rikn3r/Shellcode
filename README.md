@@ -7,7 +7,7 @@ This directory is reserved for activity 1 question 4, creation of a C program wh
 ### wrapper
 This directory is reserved for first activity, a wrapper ecxecuting Opcode given in parameter
      
-### asm32/64
+### asm32 and asm64
 These two directories are reserved for second activity (respectively in assembly x32 and x64) 
 
 # Build and run
@@ -18,7 +18,7 @@ Compile then execute wrapper:
 gcc wrapper.c -o wrapper -fno-stack-protector -z
 ./wrapper $(python2 -c 'print("<OPCODE>")'
 ```
-### ASM 32/64
+### asm32 and asm64
 Compile then execute asm0X.s (X is a digit) : 
 ```console
 ./build.sh asm0X
