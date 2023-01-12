@@ -24,30 +24,32 @@ Compile then execute asm0X.s (X is a digit) :
 ./build.sh asm0X
 ./asm0X
 ```
-# Activités
-### Activité 1
-1. Préparation de la VM de dev.
-2. Création d’un repository github avec à sa racine un fichier auteur contenant prénom nom et classe.
-M’envoyer le lien du github en privé sur discord.
-3. Dans le repository, créer un répertoire “wrapper” et un répertoire “shellcodes”.
-4. Dans le répertoire shellcodes, créez le fichier shellcode01.c et développez un shellcode en C, (un
-programme qui lance un /bin/sh), l’analyser avec objdump, gdb, gdb-peda, radare2, ltrace, strace.
-5. Dans le répertoire wrapper vous allez devoir développer (Langage C ou python conseillés) un wrapper
-de shellcode qui s’exécutera : ./wrapper <shellcode>
-Le fichier source devra contenir votre nom, prénom et un “guide d’utilisation”.
-Bonus du wrapper : Affichage du shellcode, de sa taille, état de la mémoire, options de débug, etc
-6. TP Bonus : Développer un programme vulnérable au buffer overflow et l’exécuter.
+# Activities
+### Activity 1
+1. Preparation of the dev VM.
+2. Create a github repository with an author file at its root containing first name last name and class.
+Send me the link of the github in private on discord.
+3. In the repository, create a directory "wrapper" and a directory "shellcodes".
+4. In the shellcodes directory, create the file shellcode01.c and develop a shellcode in C, (a program that launches a
+program which launches a /bin/sh), analyze it with objdump, gdb, gdb-peda, radare2, ltrace, strace.
+5. In the wrapper directory you will have to develop (C or python language advised) a shellcode wrapper
+of shellcode that will run : ./wrapper <shellcode>.
+The source file will have to contain your name, first name and a "user guide".
+Bonus of the wrapper : Display of the shellcode, its size, memory status, debugging options, etc
+6. Bonus TP : Develop a program vulnerable to buffer overflow and run it.
 
-### Activité 2
-1. Dans le repo github, créer les répertoires “asm32” et “asm64” et développer les programmes associés suivants dans les 2 répertoires respectivement en 32 et 64 bits:
-2. ./asm01.s devra retourner 0
-3. ./asm02.s devra afficher 1337 et retourner 0
-4. ./asm03.s devra afficher 1337 et retourner 0 si il reçoit en entrée 42 sinon 1
-5. ./asm04.s devra retourner 0 si le nombre entré est pair sinon 1
-6. ./asm05.s devra exécuter asm01
-7. ./asm06.s devra exécuter /bin/sh
-8. ./build.sh devra tous les compiler
-9. ./create_shellcode.sh devra transformer les programmes passés en paramètes en
-shellcode (attention aux nullbytes)
-10. Exécuter les shellcodes créés dans le wrapper C
-11. Bonus : dans le répertoire wrapper, développer un wrapper an asm.
+### Activity 2
+1. In the github repo, create the directories "asm32" and "asm64" and develop the following associated programs in the 2 directories respectively in 32 and 64 bits:
+2. ./asm01.s should return 0
+3. ./asm02.s should display 1337 and return 0
+4. ./asm03.s should display 1337 and return 0 if it receives in input 42 otherwise 1
+5. ./asm04.s must return 0 if the number entered is even otherwise 1
+6. ./asm05.s must execute asm01
+7. ./asm06.s should run /bin/sh
+8. ./build.sh should compile all
+9. ./create_shellcode.sh should transform the programs passed as parameters into
+shellcode (beware of nullbytes)
+10. Execute the shellcodes created in the C wrapper
+11. Bonus : in the wrapper directory, develop an asm wrapper.
+
+Translated with www.DeepL.com/Translator (free version)
